@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num 1 = int(input("Enter a number: "))
 mod = num % 2
 if mod > 0:
     print("This is an odd number.")
