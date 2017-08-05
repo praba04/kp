@@ -1,6 +1,6 @@
-year = int(input("Please Enter the Year Number you wish: "))
+years = int(input("Please Enter the Year Number you wish: "))
  
-if (( year%400 == 0)or (( year%4 == 0 ) and ( year%100 != 0))):
-    print("%d is a Leap Year" %year)
+if (( years%400 == 0)or (( years%4 == 0 ) and ( years%100 != 0))):
+    print("%d is a Leap Year" %years)
 else:
-    print("%d is Not the Leap Year" %year)
+    print("%d is Not the Leap Year" %years)
